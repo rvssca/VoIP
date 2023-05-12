@@ -27,6 +27,8 @@ You'll need to ask the appropriate person for the username and password.
 
 Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Restore from Backup Package" and select [UPLOAD]. Identify the backup file in the usual way. The file included with this repo is good.
 
+https://github.com/rvssca/VoIP/raw/main/gs-rvss-generic-backup.uf
+
 Click [OK] to restore phonebook, call log, config, user configuration.
 
 You will see "restore in progress" on the phone display.

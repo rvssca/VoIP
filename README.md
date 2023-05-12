@@ -1,15 +1,54 @@
 # VoIP
 Configuration of the Grandstream GXP2140
 
+![gs-on-desk.jpg](images/gs-on-desk.jpg)
+
 The club is running a VoIP service for audio telephony. This repo is going to describe the method for restoring the service in the event that the settings are lost or the phone is ever replaced with an identical model.
 
-## Service provider.
+## How to restore the phone configuration.
 
-We won't be publishing any sensitive details such as the name of our voip provider or the credentials of our SIP account. That information has to be sought from the club.
+The phone's configuration can be restored if the settings are lost or the phone is replaced by an identical unit.
 
-## Restore settings.
+### Identify the IP of the phone.
 
-1. Access the web interface of the phone on http://192.168.x.y . The credentials are confidential.
-2. Navigate to page...
-3. Upload the restore file.
-4. Update the account settings on this page.
+Once the phone has been booted, it will request an IP address from our router. You'll need to identify the assigned IP before you can procede. There are many ways to do this. Get help if you don't know how.
+
+### Connect to the web interface of the phone.
+
+In a browser, enter the IP of the phone. This example IP will not be the same. http://192.168.92.161
+
+Once connected, you'll see a login page.
+
+![gs-login](images/gs-login.png)
+
+You'll need to ask the appropriate person for the username and password.
+
+### Maintenance -> Upgrade and Provisioning.
+
+Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Restore from Backup Backage" and select [UPLOAD]. Identify the backup file in the usual way. The file included with this repo is good.
+
+Click [OK] to restore phonebook, call log, config, user configuration.
+
+You will "restore in progress" on the phnoe display.
+
+After a pause, the phone will boot. Do not interrupt. It takes a couple of minutes.
+
+###
+
+The phone needs to be configured for use with our VoIP provider.
+
+In the browser, go to the IP of the phone again. It is possible the IP has changed since earlier! Login.
+
+Go to Accounts -> Account 1 -> General Settings.
+
+Enter the appropriate values for SIP Server, Outbound Proxy and SIP Authenication Password. These values can be provided by the appropriate club person.
+
+![gs-settings](images/gs-account-1-general-settings.png)
+
+Press [Save and Apply]
+
+### The phone is ready.
+
+If the phone is connected to the Internet, you should see this.
+
+![gs-good-config](images/gs-good-config.png)

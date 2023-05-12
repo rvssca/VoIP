@@ -9,11 +9,11 @@ The club is running a VoIP service for audio telephony. This repo is going to de
 
 The phone's configuration can be restored if the settings are lost or the phone is replaced by an identical unit.
 
-### Identify the IP of the phone.
+### 1. Identify the IP of the phone.
 
 Once the phone has been booted, it will request an IP address from our router. You'll need to identify the assigned IP before you can procede. There are many ways to do this. Get help if you don't know how.
 
-### Connect to the web interface of the phone.
+### 2. Connect to the web interface of the phone.
 
 In a browser, enter the IP of the phone. This example IP will not be the same. http://192.168.92.161
 
@@ -23,7 +23,7 @@ Once connected, you'll see a login page.
 
 You'll need to ask the appropriate person for the username and password.
 
-### Maintenance -> Upgrade and Provisioning.
+### 3. Maintenance -> Upgrade and Provisioning.
 
 Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Restore from Backup Backage" and select [UPLOAD]. Identify the backup file in the usual way. The file included with this repo is good.
 
@@ -33,7 +33,7 @@ You will "restore in progress" on the phnoe display.
 
 After a pause, the phone will boot. Do not interrupt. It takes a couple of minutes.
 
-###
+### 4. Enter VoIP provider settings.
 
 The phone needs to be configured for use with our VoIP provider.
 
@@ -47,7 +47,7 @@ Enter the appropriate values for SIP Server, Outbound Proxy and SIP Authenicatio
 
 Press [Save and Apply]
 
-### The phone is ready.
+### 5. The phone is ready.
 
 If the phone is connected to the Internet, you should see this.
 

@@ -3,7 +3,7 @@ Configuration of the Grandstream GXP2140
 
 ![gs-on-desk.jpg](images/gs-on-desk.jpg)
 
-The club is running a VoIP service for audio telephony. This repo is going to describe the method for restoring the service in the event that the settings are lost or the phone is ever replaced with an identical model.
+The club is running a VoIP service for audio telephony. This repo describes the process of restoring the phone configuration in the event that the settings are lost or the phone is ever replaced with an identical model.
 
 ## How to restore the phone configuration.
 

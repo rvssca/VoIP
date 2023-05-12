@@ -25,7 +25,7 @@ You'll need to ask the appropriate person for the username and password.
 
 ### 3. Maintenance -> Upgrade and Provisioning.
 
-Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Restore from Backup Backage" and select [UPLOAD]. Identify the backup file in the usual way. The file included with this repo is good.
+Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Restore from Backup Package" and select [UPLOAD]. Identify the backup file in the usual way. The file included with this repo is good.
 
 Click [OK] to restore phonebook, call log, config, user configuration.
 

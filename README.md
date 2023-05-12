@@ -29,7 +29,7 @@ Navigate to Maintenance -> Upgrade and Provisioning. Find the line that says "Re
 
 Click [OK] to restore phonebook, call log, config, user configuration.
 
-You will "restore in progress" on the phnoe display.
+You will see "restore in progress" on the phone display.
 
 After a pause, the phone will boot. Do not interrupt. It takes a couple of minutes.
 

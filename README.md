@@ -11,11 +11,17 @@ The phone's configuration can be restored if the settings are lost or the phone 
 
 ### 1. Identify the IP of the phone.
 
-Once the phone has been booted, it will request an IP address from our router. You'll need to identify the assigned IP before you can procede. There are many ways to do this. Get help if you don't know how.
+Once the phone has been booted, it will request an IP address from our router. You'll need to identify the assigned IP before you can procede.
+
+1. Press the center button, between the arrows.
+1. Use the arrows to navigate to Status and press center.
+1. Use the down-arrow to navigate to Network Status and press center.
+
+IPv4 address is the IP address you will need.
 
 ### 2. Connect to the web interface of the phone.
 
-In a browser, enter the IP of the phone. This example IP will not be the same. http://192.168.92.161
+In a browser, enter the IP of the phone e.g. http://192.168.72.101. Ensure you are using http:// because https:// will not work.
 
 Once connected, you'll see a login page.
 
